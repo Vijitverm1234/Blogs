@@ -139,3 +139,19 @@ nav {
     justify-content: center;
   }
 }
+
+@media (max-width: 500px){
+    nav{
+        margin-left: 10px;
+        margin-right: 10px;
+
+    }
+    .connect{
+        
+        font-size: 14px;
+    }
+    .left img {
+  height: 60px;
+  transition: transform 0.3s ease;
+}
+}
