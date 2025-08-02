@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.footer{
+    background-color: #DCC5B2;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr;
+    gap: 20px;
+    padding: 20px 20px;
+    font-family: "Outfit", sans-serif;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.first{
+    font-family: "Outfit", sans-serif;
+
+}
+.first-heading{
+    font-size: xx-large;
+}
+.links{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.links-inside{
+   background-color: antiquewhite;  
+   padding: 3px 3px;
+margin-top: 10px;
+   border-radius: 6px; 
+ 
+}
+textarea{
+    background-color: antiquewhite;
+    width: 80%;
+    border-radius: 10px;
+    height: 70px;
+    font-size: large;
+    padding: 10px 10px;
+}
+::placeholder{
+    font-family: "Outfit", sans-serif;
+    text-align: center;
+}
+form{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+form button{
+    padding: 10px 10px;
+    background-color: #f5e6d9;
+    border-radius: 10px;
+
+}
+@media (max-width:780px){
+    .footer{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
