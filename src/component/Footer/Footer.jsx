@@ -1,22 +1,22 @@
 import React from "react";
 import "./Footer.css";
 import { Github, Instagram, Linkedin, Send, X } from "lucide-react";
+
 const Footer = () => {
   return (
     <div className="back">
       <div className="footer">
         <div className="first">
-          <div className="first-heading">Why Blog ?</div>
+          <div className="first-heading">Why Choose Our Blog?</div>
           <hr />
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
-            facilis deleniti dolorum fuga ratione ex, natus quis modi sapiente
-            repellat adipisci tempore in tenetur itaque dolore rem ducimus iure
-            sequi.
+            Discover a space for insightful articles, expert tips, and inspiring
+            stories. Our blog empowers you with knowledge, fosters creativity,
+            and connects you with a vibrant community of thinkers and innovators.
           </p>
         </div>
         <div className="second">
-          <div className="first-heading">Connect with me</div>
+          <div className="first-heading">Stay Connected</div>
           <hr />
           <div className="links">
             <a
@@ -24,56 +24,66 @@ const Footer = () => {
               target="_blank"
               rel="noopener noreferrer"
               className="links-inside"
+              aria-label="GitHub Profile"
             >
-              <Github color="#333" size={40} aria-hidden="true" />
+              <Github color="#333" size={40} />
             </a>
             <a
               href="https://instagram.com/username"
               target="_blank"
               rel="noopener noreferrer"
               className="links-inside"
+              aria-label="Instagram Profile"
             >
-              <Instagram color="#333" size={40} aria-hidden="true" />
+              <Instagram color="#333" size={40} />
             </a>
             <a
               href="https://x.com/username"
               target="_blank"
               rel="noopener noreferrer"
               className="links-inside"
+              aria-label="X Profile"
             >
-              <X color="#333" size={40} aria-hidden="true" />
+              <X color="#333" size={40} />
             </a>
             <a
               href="https://linkedin.com/in/username"
               target="_blank"
               rel="noopener noreferrer"
               className="links-inside"
+              aria-label="LinkedIn Profile"
             >
-              <Linkedin color="#333" size={40} aria-hidden="true" />
+              <Linkedin color="#333" size={40} />
             </a>
           </div>
         </div>
         <div className="third">
-          <div className="first-heading">Connect with me</div>
+          <div className="first-heading">Get in Touch</div>
           <hr />
-          <form action="https://api.web3forms.com/submit" method="post">
+          <form
+            action="https://api.web3forms.com/submit"
+            method="post"
+            onSubmit={(e) => e.preventDefault()} // Temporary client-side handling
+          >
             <input
               type="hidden"
               name="access_key"
               value="defcb9f7-0c55-49c3-b552-afa5a246e5e1"
-            ></input>
+            />
             <textarea
-              placeholder="Enter Your message"
+              placeholder="Share your thoughts or questions..."
               name="message"
+              rows="4"
+              required
             ></textarea>
-            <button type="submit">
-              <Send></Send>
+            <button type="submit" aria-label="Send Message">
+              <Send />
             </button>
           </form>
         </div>
       </div>
       <div className="copyright">
-        <p>© 2025 Blog Platform. All rights reserved.</p>
+        <p>© {new Date().getFullYear()} Blog Platform. All rights reserved.</p>
       </div>
     </div>
   );

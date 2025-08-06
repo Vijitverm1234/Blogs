@@ -51,6 +51,7 @@ hr{
         padding: 20px 20px;
         margin-left: 20px;
         margin-right: 20px;
+        font-size: medium;
     }
     .screenshot-grid{
         margin-top: 10px;
@@ -80,4 +81,15 @@ hr{
     width: 90%;
     border-radius: 20px;
 }
+}
+.link{
+    display:flex;
+    gap: 20px;
+    margin-top: 10px;
+}
+.link a{
+    text-decoration: none;
+    color: black;
+      background-color: #EAE4D5;
+   padding: 5px 5px;
 }

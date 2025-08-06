@@ -37,8 +37,9 @@ const ProjectContent = ({ projects, currProject }) => {
        <div>
         <div className="heading">Explore it More</div>
         <div className="link">
-            <a href="" target="_blank">{projects[currProject].project_deployement}</a>
-            <a href="" target="_blank">{projects[currProject].project_source}</a>
+            <a href={projects[currProject].project_source} target="_blank"><div>⚫GitHub </div></a>
+            <a href={projects[currProject].project_deployment} target="_blank"><div> 🔴Deployement</div></a>
+      
 
         </div>
        </div>
