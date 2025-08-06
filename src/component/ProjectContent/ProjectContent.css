@@ -36,7 +36,8 @@ hr{
 }
 .head-info{
     display: flex;
-    justify-content: space-between;
+    justify-content: start;
+    flex-wrap: wrap;
     margin-top: 10px;
     margin-left: 10px;
     gap: 10px;

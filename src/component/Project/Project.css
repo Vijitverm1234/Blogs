@@ -1,0 +1,23 @@
+.con{
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    gap: 5px;
+}
+.cir{
+   
+    border-radius: 50%;
+    padding: 10px 20px;
+    font-size: x-large;
+    cursor: pointer;
+}
+
+@media (max-width: 700px) {
+    .con{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .cir{
+        font-size: medium;
+    }
+}

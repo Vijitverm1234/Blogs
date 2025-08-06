@@ -1,6 +1,7 @@
 import React from 'react'
 import './Navbar.css'
-import { Home, Book, Star, HomeIcon, BookAIcon, Presentation, Info, MessageCircle } from 'lucide-react';
+import { Home, Book, Star, HomeIcon, BookAIcon, Presentation, Info, MessageCircle, Workflow } from 'lucide-react';
+import { Link } from 'react-router-dom';
 const Navbar = () => {
   return (
     <nav>
@@ -8,10 +9,9 @@ const Navbar = () => {
         <img src='Logo.gif' alt="" height={80}  />
         </div>
         <div className='middle'>
-            
-            <div><HomeIcon></HomeIcon> Home</div>
-            <div> <BookAIcon></BookAIcon> Blogs</div>
-            <div> <Info></Info> About</div>
+            <Link style={{textDecoration:"none"}} to='/home'> <div><HomeIcon></HomeIcon> Home</div></Link>
+            <Link style={{textDecoration:"none"}} to='/select'> <div><BookAIcon></BookAIcon> Blogs</div></Link>
+            <Link style={{textDecoration:"none"}} to='/project'> <div><Workflow></Workflow> Project</div></Link>
         </div>
         <div className="right">
            <button className='connect'>

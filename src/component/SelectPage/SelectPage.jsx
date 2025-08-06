@@ -21,6 +21,8 @@ const blogs =[
         'https://thumbs.dreamstime.com/b/electronic-gadgets-icons-technology-electronics-multimedia-devices-everyday-objects-control-computer-connection-digital-89494813.jpg'
     ],
     icon: 'Home',
+    date:"02/08/2025",
+    category:"Technical"
   },
   {
     id: 2,
@@ -39,6 +41,8 @@ const blogs =[
         'https://thumbs.dreamstime.com/b/electronic-gadgets-icons-technology-electronics-multimedia-devices-everyday-objects-control-computer-connection-digital-89494813.jpg'
     ],
     icon: 'Book',
+    date:"02/08/2025",
+    category:"Technical"
   },
   {
     id: 3,
@@ -57,6 +61,8 @@ const blogs =[
         'https://thumbs.dreamstime.com/b/electronic-gadgets-icons-technology-electronics-multimedia-devices-everyday-objects-control-computer-connection-digital-89494813.jpg'
     ],
     icon: 'Star',
+    date:"02/08/2025",
+    category:"Technical"
   },
 ]
     const [currBlog,setCurrBlog]=useState(1)

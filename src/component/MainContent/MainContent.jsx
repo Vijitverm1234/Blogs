@@ -7,6 +7,11 @@ const MainContent = ({blogs,currBlog}) => {
             <img src={blogs[currBlog].main_photo} alt="" />
          </div> 
          <hr />
+         <div className='head-info'>
+            <div>Category : <strong> {blogs[currBlog].category}</strong></div>
+            <div>Date : <strong>{blogs[currBlog].date}</strong></div>
+         </div>
+         <hr />
          <div className='description'>
             <div className='heading'>Objective</div>
              {blogs[currBlog].des}
