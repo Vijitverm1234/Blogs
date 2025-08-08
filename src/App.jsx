@@ -16,7 +16,7 @@ function App() {
     <Routes>
       <Route path="/select" element={<SelectPage></SelectPage>}></Route>
       <Route path="/project" element={<Project></Project>}></Route>
-
+      <Route path='/connect' element={<></>}></Route>
     </Routes>
     <Footer></Footer>
     </>

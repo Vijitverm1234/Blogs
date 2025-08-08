@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useState } from "react";
 import "./ProjectContent.css";
 const ProjectContent = ({ projects, currProject }) => {
+const [projectSS,setProjectSS]=useState(false)
   return (
     <div className="container">
       <div className="main-pic">
@@ -44,8 +45,16 @@ const ProjectContent = ({ projects, currProject }) => {
         </div>
        </div>
       <hr />
+
       <div className="screenshot">
         <div className="heading">ScreenShot</div>
+
+
+        {projectSS ?
+        
+        <button onClick={()=>setProjectSS(false)}>Show ScreenShots</button>
+        :   
+        <>
         <div className="screenshot-grid">
           {projects[currProject].project_screenshot.map((item, ind) => (
             <img
@@ -58,6 +67,9 @@ const ProjectContent = ({ projects, currProject }) => {
             />
           ))}
         </div>
+        <button onClick={()=>setProjectSS(true)}>Close ScreenShots</button>
+        </>}
+      
       </div>
       <hr />
     </div>
