@@ -14,9 +14,10 @@ const Navbar = () => {
             <Link style={{textDecoration:"none"}} to='/project'> <div><Workflow></Workflow> Project</div></Link>
         </div>
         <div className="right">
-           <button className='connect'>
+          <Link to={'/connect'} style={{textDecoration:'none'}}> <button className='connect'>
           <MessageCircle></MessageCircle>  Connect ?
-           </button>
+           </button></Link>
+          
         </div>
     </nav>
   )

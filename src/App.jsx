@@ -8,6 +8,7 @@ import MainContent from './component/MainContent/MainContent'
 import Footer from './component/Footer/Footer'
 import {Routes,Route} from 'react-router-dom'
 import Project from './component/Project/Project'
+import Connect from './component/Connect/Connect'
 function App() {
   return(
     <>
@@ -16,7 +17,7 @@ function App() {
     <Routes>
       <Route path="/select" element={<SelectPage></SelectPage>}></Route>
       <Route path="/project" element={<Project></Project>}></Route>
-      <Route path='/connect' element={<></>}></Route>
+      <Route path='/connect' element={<Connect></Connect>}></Route>
     </Routes>
     <Footer></Footer>
     </>

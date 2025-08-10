@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./ProjectContent.css";
 const ProjectContent = ({ projects, currProject }) => {
-const [projectSS,setProjectSS]=useState(false)
+const [projectSS,setProjectSS]=useState(true)
   return (
     <div className="container">
       <div className="main-pic">

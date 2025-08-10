@@ -1,0 +1,50 @@
+.heading-1{
+    text-align: center;
+}
+.con-form{
+    display: flex;
+    position: relative;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 20px;
+    border: 6px solid rgb(199, 192, 183);
+    padding: 20px 20px;
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    margin-top: 30px;
+    width: 70%;
+    overflow: hidden;
+    background-color: #F5ECE0;
+}
+.input-con{
+    display: flex;
+    flex-direction: column;
+    width:90%;
+    gap: 10px;
+}
+input{
+    background-color: rgb(250, 235, 215);
+   border: 0.5;
+   padding: 10px;
+   border-radius: 5px;
+   
+}
+.textarea-con{
+    width: 100%;
+}
+::placeholder{
+    text-align: center;
+    font-size: medium;
+    
+}
+.pattern{
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    z-index: -1;
+    top: -150px;
+    right: -150px;
+}
+
