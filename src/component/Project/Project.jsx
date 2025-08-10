@@ -19,9 +19,8 @@ const Project = () => {
     ],
     "project_main_photo": "Banner4.png",
     "project_screenshot": [
-      "https://snacknation.com/wp-content/uploads/2024/07/Corporate-Tech-Gifts-Hero-Image-e1720631857902.png",
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTM7TFLzfW8FFQMr8Z2VPBLVZAJYbp97uSxahY52ymFR42IQmFYZR6dvH5QX5jZGuyOm0Y&usqp=CAU",
-      "https://thumbs.dreamstime.com/b/electronic-gadgets-icons-technology-electronics-multimedia-devices-everyday-objects-control-computer-connection-digital-89494813.jpg"
+      "text_to_image_1.png",
+      "text_to_image_2.png"
     ],
     "project_list": [
       "Developed a MERN-based application with a diffusion model API for text-to-image generation.",
@@ -49,9 +48,7 @@ const Project = () => {
     ],
     "project_main_photo": "Banner5.png",
     "project_screenshot": [
-      "https://snacknation.com/wp-content/uploads/2024/07/Corporate-Tech-Gifts-Hero-Image-e1720631857902.png",
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTM7TFLzfW8FFQMr8Z2VPBLVZAJYbp97uSxahY52ymFR42IQmFYZR6dvH5QX5jZGuyOm0Y&usqp=CAU",
-      "https://thumbs.dreamstime.com/b/electronic-gadgets-icons-technology-electronics-multimedia-devices-everyday-objects-control-computer-connection-digital-89494813.jpg"
+      "Ai_mock_interview.png"
     ],
     "project_list": [
       "Developed a full-stack app to schedule interviews and generate AI-based questions for users.",
